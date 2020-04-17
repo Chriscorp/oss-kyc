@@ -3,12 +3,12 @@ module.exports = {
         development: {
             host: "localhost",
             port: 8545,
-            network_id: "20581"
+            network_id: "*"
         },
         production: {
             host: "localhost",
             port: 8545,
-            network_id: "9449",
+            network_id: "*",
             gasPrice: 10000000000
         }
     }
